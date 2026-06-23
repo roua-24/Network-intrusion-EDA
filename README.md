@@ -2,13 +2,12 @@
 
 ## Key Findings
 
-- ~80% of traffic in the dataset is anomalous (heavily imbalanced)
-- DoS attacks dominate — SYN flood and smurf are the most frequent
+- Dataset : 494,021 network connections · 41 features · 23 attack types
+- ~80% of traffic is anomalous — heavily imbalanced dataset
+- DoS attacks dominate : smurf and neptune are the most frequent
 - TCP protocol is strongly associated with attack traffic vs UDP for normal
-- `src_bytes`, `serror_rate` and `count` are the most discriminative features
-- Isolation Forest achieves competitive F1-score on unsupervised detection
-
----
+- src_bytes and serror_rate are the most discriminative features
+- Isolation Forest achieves F1-score [colle ton vrai score ici] on anomaly detection
 
 ## Notebooks Overview
 
