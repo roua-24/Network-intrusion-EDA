@@ -19,7 +19,8 @@
 | `04_anomaly_detection` | Isolation Forest · StandardScaler · classification report · confusion matrix |
 
 ---
-
+## show visualizations in notebook 
+add theis command in the beginning of cell 02 in notebook 03 and 04 "%matplotlib inline "
 ## How to Run
 
 ```bash
